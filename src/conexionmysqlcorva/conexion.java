@@ -21,7 +21,7 @@ public class conexion {
         Connection co = DriverManager.getConnection("jdbc:mysql://127.0.0.1/mysqlcorva?user=root&password=");
         Statement stm = co.createStatement();
         ResultSet rs = stm.executeQuery("select * from terceros");
-        //hola
+        
         while (rs.next()){
             System.out.println(rs.getString( "id"));
             System.out.println(rs.getString(2));
