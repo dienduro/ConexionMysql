@@ -33,4 +33,18 @@ public class conexion {
             Logger.getLogger(conexion.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
+    void conectar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    class conex {
+
+        static Statement createStatement() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        public conex() {
+        }
+    }
 }
