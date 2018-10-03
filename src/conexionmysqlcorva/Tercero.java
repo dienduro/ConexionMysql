@@ -32,8 +32,8 @@ public class Tercero extends TerceroPOA {
         String resultados ="";
         try {
             String sqlConsultar ="Select * from terceros where id ="+id;
-            objConec.conectar();
-            Statement st = objConec.conex.createStatement();
+            objConec.conecxion();
+            Statement st = objConec.co.createStatement();
             ResultSet rs = st.executeQuery(sqlConsultar);
             while(rs.next()){
             resultados +=rs.getNString(2)+"-"
